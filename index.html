@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookski</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Bookski</h1>
+    <div class="add-btn-box">
+        <button id="openPopup" class="add-btn">+</button>
+    </div>
+    <div id="bookList" class="book-list">
+        <div class="book-box">
+            <h3>Atomic Habits</h3>
+            <p><b>Author:</b> James Clear</p>
+            <p>A practical guide to building good habits.</p>
+            <button class="delete-btn">Delete</button>
+        </div>
+        <div class="book-box">
+            <h3>Harry Potter</h3>
+            <p><b>Author:</b> J. K. Rowling</p>
+            <p>A magical adventure story.</p>
+            <button class="delete-btn">Delete</button>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-box">
+            <h2>Add Book</h2>
+            <input type="text" id="bookName" placeholder="Book Name">
+            <input type="text" id="bookAuthor" placeholder="Author Name">
+            <textarea id="bookDesc" placeholder="Description"></textarea>
+            <button id="addBook" class="add-popup-btn">Add</button>
+            <button id="closePopup" class="close-popup-btn">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
